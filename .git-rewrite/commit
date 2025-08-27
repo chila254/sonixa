@@ -1,0 +1,24 @@
+tree 1e935bd8d0299b451fcb7f0e0b42235a330da63f
+parent f286c762b3100b9bd815982aa77cb3e722c3938c
+author Mo Agamy <80542861+mostafaalagamy@users.noreply.github.com> 1738764928 +0200
+committer GitHub <noreply@github.com> 1738764928 +0200
+gpgsig -----BEGIN PGP SIGNATURE-----
+ 
+ wsFcBAABCAAQBQJno3KACRC1aQ7uu5UhlAAAq1AQAJ54NmyQp4ohrhx0ms4gKrR2
+ FJUGs6RlJ51kiJXkpIdqXte6xwBurlDjO1+R4b+fz7PM9qKnFEKq0YayJGlXY6IL
+ nuYQIv0ujSb+uY6s5R5swX9mas3akfb54MDFyRvkNqhiFwrjJ7rV82HDO3rOs9m5
+ 2UHxG+3Vq5o2HotFbwHZrXSBWHvjS/j7Ipoj9JJ4pcgGFDJ6NZaPz4nDAqV1l3mQ
+ J9OqYfXkGtR5oMYP6cabuhG4QJMhZsgU72hcWsAlZB1TLZbtUI+k6nuTuxQVxnL9
+ X+HWOGi2rWeWfFL60RhgzJ/XFQuIxMF/yw2vo4I6RcBh8eXu+LkyXwI0j8eZ7n3Z
+ Y8jB3MOlgoTKV3vgVVF1TH7dVreJnG2tnfMqMMACtMbE5VvEqyS/O7Q8F5l7K5PE
+ prM3ggt8FvCqfgOvW7VpxZRwTcYE7GXuDDuZ6jWiMjwEQdkFc8CLfdzLF4L1/LEp
+ /Yx7XCyi/itYaLGVkXl5xVOKzrqRL78HBBCI3DQ710Yl3W/gg8wv7t+S9nNwwxQz
+ nIHgPIPwNl7chiZGb5schAWZZVxVVcsEQRWGdEIHYaql/367bKAP9LwZUTVnZHxp
+ Y8ee4j3TiM53G4UNN9tAhPOtWqzCpwfSAGD6pr6GlAkjGzzbQrfMiHSdO9jPDAG6
+ DWl8BV7YNFi3BCLEOErS
+ =VKUi
+ -----END PGP SIGNATURE-----
+ 
+
+feat(LocalPlaylist & AutoPlaylist): add dislike all button in SelectionSongMenu, #312
+

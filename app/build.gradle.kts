@@ -59,7 +59,7 @@ android {
 
     signingConfigs {
         create("persistentDebug") {
-            storeFile = file("persistent-debug.keystore")
+            storeFile = file("../debug.keystore")
             storePassword = "android"
             keyAlias = "androiddebugkey"
             keyPassword = "android"
