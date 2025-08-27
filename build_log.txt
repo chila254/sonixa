@@ -1,0 +1,663 @@
+Reusing configuration cache.
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preArm64DebugBuild UP-TO-DATE
+> Task :app:mergeArm64DebugNativeDebugMetadata NO-SOURCE
+> Task :innertube:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :innertube:processResources NO-SOURCE
+> Task :kugou:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :kugou:compileKotlin UP-TO-DATE
+> Task :kugou:compileJava NO-SOURCE
+> Task :lrclib:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :lrclib:processResources NO-SOURCE
+> Task :kugou:processResources NO-SOURCE
+> Task :kizzy:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :kugou:classes UP-TO-DATE
+> Task :kugou:jar UP-TO-DATE
+> Task :lrclib:compileKotlin UP-TO-DATE
+> Task :kizzy:compileKotlin UP-TO-DATE
+> Task :lrclib:compileJava NO-SOURCE
+> Task :lrclib:classes UP-TO-DATE
+> Task :lrclib:jar UP-TO-DATE
+> Task :kizzy:compileJava NO-SOURCE
+> Task :app:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :app:generateArm64DebugBuildConfig UP-TO-DATE
+> Task :kizzy:processResources NO-SOURCE
+> Task :kizzy:classes UP-TO-DATE
+> Task :kizzy:jar UP-TO-DATE
+> Task :app:generateArm64DebugResValues UP-TO-DATE
+> Task :app:processArm64DebugNavigationResources UP-TO-DATE
+> Task :app:compileArm64DebugNavigationResources UP-TO-DATE
+> Task :app:mapArm64DebugSourceSetPaths UP-TO-DATE
+> Task :app:extractArm64DebugSupportedLocales UP-TO-DATE
+> Task :app:generateArm64DebugResources UP-TO-DATE
+> Task :app:createArm64DebugCompatibleScreenManifests UP-TO-DATE
+> Task :app:checkArm64DebugAarMetadata UP-TO-DATE
+> Task :app:extractDeepLinksArm64Debug UP-TO-DATE
+> Task :app:generateArm64DebugLocaleConfig UP-TO-DATE
+> Task :app:javaPreCompileArm64Debug UP-TO-DATE
+> Task :app:mergeArm64DebugResources UP-TO-DATE
+> Task :app:mergeArm64DebugShaders UP-TO-DATE
+> Task :app:compileArm64DebugShaders NO-SOURCE
+> Task :app:generateArm64DebugAssets UP-TO-DATE
+> Task :app:processArm64DebugMainManifest UP-TO-DATE
+> Task :app:processArm64DebugManifest UP-TO-DATE
+> Task :app:processArm64DebugManifestForPackage UP-TO-DATE
+> Task :app:mergeArm64DebugAssets UP-TO-DATE
+> Task :app:compressArm64DebugAssets UP-TO-DATE
+> Task :app:desugarArm64DebugFileDependencies
+
+> Task :innertube:compileKotlin FAILED
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/InnerTube.kt:539:27 Cannot infer type for type parameter 'T'. Specify it explicitly.
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/InnerTube.kt:539:27 Unresolved reference. None of the following candidates is applicable because of a receiver type mismatch:
+fun <T> Iterable<T>.find(predicate: (T) -> Boolean): T?
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/InnerTube.kt:539:32 Cannot infer type for type parameter 'T'. Specify it explicitly.
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/InnerTube.kt:540:32 Unresolved reference 'height'.
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/InnerTube.kt:541:28 Function invocation 'url(...)' expected.
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/InnerTube.kt:542:27 Unresolved reference 'replace'.
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/YouTube.kt:9:36 Unresolved reference 'GridRenderer'.
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/YouTube.kt:39:35 Unresolved reference 'ArtistItemsContinuationPage'.
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/YouTube.kt:40:35 Unresolved reference 'ArtistItemsPage'.
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/YouTube.kt:285:63 Unresolved reference 'ArtistItemsPage'.
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/YouTube.kt:285:82 Cannot infer type for type parameter 'R'. Specify it explicitly.
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/YouTube.kt:291:13 Unresolved reference 'ArtistItemsPage'.
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/YouTube.kt:292:38 Unresolved reference 'header'.
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/YouTube.kt:292:94 Unresolved reference 'text'.
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/YouTube.kt:293:38 Unresolved reference 'items'.
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/YouTube.kt:294:21 Unresolved reference 'it'.
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/YouTube.kt:294:49 Cannot infer type for type parameter 'T'. Specify it explicitly.
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/YouTube.kt:294:49 Cannot infer type for type parameter 'R'. Specify it explicitly.
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/YouTube.kt:294:55 Cannot infer type for type parameter 'T'. Specify it explicitly.
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/YouTube.kt:295:25 Unresolved reference 'ArtistItemsPage'.
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/YouTube.kt:298:45 Unresolved reference 'continuations'.
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/YouTube.kt:304:13 Unresolved reference 'ArtistItemsPage'.
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/YouTube.kt:306:75 Cannot infer type for type parameter 'R'. Specify it explicitly.
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/YouTube.kt:307:25 Unresolved reference 'ArtistItemsPage'.
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/YouTube.kt:308:26 Cannot infer type for type parameter 'T'. Specify it explicitly.
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/YouTube.kt:314:71 Unresolved reference 'ArtistItemsContinuationPage'.
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/YouTube.kt:314:102 Cannot infer type for type parameter 'R'. Specify it explicitly.
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/YouTube.kt:320:17 Unresolved reference 'ArtistItemsContinuationPage'.
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/YouTube.kt:321:52 Cannot infer type for type parameter 'T'. Specify it explicitly.
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/YouTube.kt:321:52 Cannot infer type for type parameter 'R'. Specify it explicitly.
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/YouTube.kt:321:52 Unresolved reference. None of the following candidates is applicable because of a receiver type mismatch:
+fun <T, R : Any> Iterable<T>.mapNotNull(transform: (T) -> R?): List<R>
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/YouTube.kt:321:63 Cannot infer type for type parameter 'T'. Specify it explicitly.
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/YouTube.kt:322:28 Unresolved reference 'musicTwoRowItemRenderer'.
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/YouTube.kt:322:53 Cannot infer type for type parameter 'T'. Specify it explicitly.
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/YouTube.kt:322:53 Cannot infer type for type parameter 'R'. Specify it explicitly.
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/YouTube.kt:322:59 Cannot infer type for type parameter 'T'. Specify it explicitly.
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/YouTube.kt:323:29 Unresolved reference 'ArtistItemsPage'.
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/YouTube.kt:332:17 Unresolved reference 'ArtistItemsContinuationPage'.
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/YouTube.kt:333:80 Cannot infer type for type parameter 'R'. Specify it explicitly.
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/YouTube.kt:334:25 Unresolved reference 'ArtistItemsPage'.
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/YouTube.kt:343:17 Unresolved reference 'ArtistItemsContinuationPage'.
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/YouTube.kt:344:60 Cannot infer type for type parameter 'R'. Specify it explicitly.
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/YouTube.kt:345:25 Unresolved reference 'ArtistItemsPage'.
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/YouTube.kt:495:9 Return type mismatch: expected 'List<AlbumItem>', actual 'String'.
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/YouTube.kt:495:166 Unresolved reference 'items'.
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/YouTube.kt:496:28 Unresolved reference 'it'.
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/YouTube.kt:515:58 Unresolved reference 'header'.
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/YouTube.kt:515:114 Unresolved reference 'text'.
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/YouTube.kt:516:58 Unresolved reference 'items'.
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/YouTube.kt:517:45 Unresolved reference 'GridRenderer'.
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/YouTube.kt:556:51 Unresolved reference 'items'.
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/YouTube.kt:557:38 Unresolved reference 'GridRenderer'.
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/YouTube.kt:558:79 Unresolved reference 'it'.
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/YouTube.kt:559:58 Unresolved reference 'continuations'.
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/YouTube.kt:587:26 Cannot infer type for type parameter 'T'. Specify it explicitly.
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/YouTube.kt:587:26 Cannot infer type for type parameter 'R'. Specify it explicitly.
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/YouTube.kt:587:26 Unresolved reference. None of the following candidates is applicable because of a receiver type mismatch:
+fun <T, R : Any> Iterable<T>.mapNotNull(transform: (T) -> R?): List<R>
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/YouTube.kt:587:38 Unresolved reference 'GridRenderer'.
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/YouTube.kt:588:26 Cannot infer type for type parameter 'T'. Specify it explicitly.
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/YouTube.kt:588:37 Cannot infer type for type parameter 'T'. Specify it explicitly.
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/YouTube.kt:614:29 Unresolved reference 'items'.
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/YouTube.kt:615:17 Unresolved reference 'it'.
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/YouTube.kt:615:45 Cannot infer type for type parameter 'T'. Specify it explicitly.
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/YouTube.kt:615:45 Cannot infer type for type parameter 'R'. Specify it explicitly.
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/YouTube.kt:615:51 Cannot infer type for type parameter 'T'. Specify it explicitly.
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/YouTube.kt:628:32 Cannot infer type for value parameter 'index'. Specify it explicitly.
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/YouTube.kt:628:39 Cannot infer type for value parameter 'item'. Specify it explicitly.
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/YouTube.kt:630:32 Suspension functions can only be called within coroutine body.
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/YouTube.kt:630:32 Argument type mismatch: actual type is 'ArtistItem', but 'Char' was expected.
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/YouTube.kt:677:39 Cannot infer type for type parameter 'T'. Specify it explicitly.
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/YouTube.kt:677:39 Cannot infer type for type parameter 'R'. Specify it explicitly.
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/YouTube.kt:677:39 Unresolved reference. None of the following candidates is applicable because of a receiver type mismatch:
+fun <T, R> T.let(block: (T) -> R): R
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/YouTube.kt:677:45 Cannot infer type for type parameter 'T'. Specify it explicitly.
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/YouTube.kt:678:42 Unresolved reference 'header'.
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/YouTube.kt:678:98 Unresolved reference 'text'.
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/YouTube.kt:679:28 Return type mismatch: expected 'uninferred ERROR CLASS: Cannot infer argument for type parameter R', actual 'Unit'.
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/YouTube.kt:681:42 Unresolved reference 'items'.
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/YouTube.kt:681:61 Cannot infer type for value parameter 'item'. Specify it explicitly.
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/YouTube.kt:682:30 Unresolved reference 'musicTwoRowItemRenderer'.
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/YouTube.kt:682:55 Cannot infer type for type parameter 'T'. Specify it explicitly.
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/YouTube.kt:682:55 Cannot infer type for type parameter 'R'. Specify it explicitly.
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/YouTube.kt:682:61 Cannot infer type for type parameter 'T'. Specify it explicitly.
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/models/GridRenderer.kt:9:29 Serializer has not been found for type 'ERROR CLASS: Symbol not found for Continuation'. To use context serializer as fallback, explicitly annotate type or property with @Contextual
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/models/GridRenderer.kt:9:29 Unresolved reference 'Continuation'.
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/models/GridRenderer.kt:17:24 Serializer has not been found for type 'ERROR CLASS: Symbol not found for Runs'. To use context serializer as fallback, explicitly annotate type or property with @Contextual
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/models/GridRenderer.kt:17:24 Unresolved reference 'Runs'.
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/models/GridRenderer.kt:23:44 Unresolved reference 'MusicNavigationButtonRenderer'.
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/models/GridRenderer.kt:23:44 Serializer has not been found for type 'ERROR CLASS: Symbol not found for MusicNavigationButtonRenderer?'. To use context serializer as fallback, explicitly annotate type or property with @Contextual
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/models/GridRenderer.kt:24:38 Unresolved reference 'MusicTwoRowItemRenderer'.
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/models/GridRenderer.kt:24:38 Serializer has not been found for type 'ERROR CLASS: Symbol not found for MusicTwoRowItemRenderer?'. To use context serializer as fallback, explicitly annotate type or property with @Contextual
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/models/SectionListRenderer.kt:50:27 Unresolved reference 'GridRenderer'.
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/models/SectionListRenderer.kt:50:27 Serializer has not been found for type 'ERROR CLASS: Symbol not found for GridRenderer?'. To use context serializer as fallback, explicitly annotate type or property with @Contextual
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/models/YouTubeDataPage.kt:155:62 Serializer has not been found for type 'ERROR CLASS: Symbol not found for com.metrolist.innertube.models.Thumbnail'. To use context serializer as fallback, explicitly annotate type or property with @Contextual
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/models/YouTubeDataPage.kt:155:93 Unresolved reference 'Thumbnail'.
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/models/response/BrowseResponse.kt:5:36 Unresolved reference 'GridRenderer'.
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/models/response/BrowseResponse.kt:66:29 Unresolved reference 'GridRenderer'.
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/models/response/BrowseResponse.kt:66:29 Serializer has not been found for type 'ERROR CLASS: Symbol not found for GridRenderer.Item'. To use context serializer as fallback, explicitly annotate type or property with @Contextual
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/pages/ArtistItemsContinuationPage.kt:3:39 Unresolved reference 'YTItem'.
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/pages/ArtistItemsContinuationPage.kt:6:21 Unresolved reference 'YTItem'.
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/pages/ArtistItemsPage.kt:3:39 Unresolved reference 'Album'.
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/pages/ArtistItemsPage.kt:4:39 Unresolved reference 'AlbumItem'.
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/pages/ArtistItemsPage.kt:5:39 Unresolved reference 'Artist'.
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/pages/ArtistItemsPage.kt:6:39 Unresolved reference 'MusicResponsiveListItemRenderer'.
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/pages/ArtistItemsPage.kt:7:39 Unresolved reference 'MusicTwoRowItemRenderer'.
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/pages/ArtistItemsPage.kt:8:39 Unresolved reference 'PlaylistItem'.
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/pages/ArtistItemsPage.kt:9:39 Unresolved reference 'SongItem'.
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/pages/ArtistItemsPage.kt:10:39 Unresolved reference 'YTItem'.
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/pages/ArtistItemsPage.kt:11:39 Unresolved reference 'oddElements'.
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/pages/ArtistItemsPage.kt:12:39 Unresolved reference 'splitBySeparator'.
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/pages/ArtistItemsPage.kt:13:32 Unresolved reference 'utils'.
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/pages/ArtistItemsPage.kt:17:21 Unresolved reference 'YTItem'.
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/pages/ArtistItemsPage.kt:21:59 Unresolved reference 'MusicResponsiveListItemRenderer'.
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/pages/ArtistItemsPage.kt:21:93 Unresolved reference 'SongItem'.
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/pages/ArtistItemsPage.kt:22:20 Unresolved reference 'SongItem'.
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/pages/ArtistItemsPage.kt:23:31 Unresolved reference 'playlistItemData'.
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/pages/ArtistItemsPage.kt:24:34 Unresolved reference 'flexColumns'.
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/pages/ArtistItemsPage.kt:25:23 Unresolved reference 'musicResponsiveListItemFlexColumnRenderer'.
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/pages/ArtistItemsPage.kt:26:44 Unresolved reference 'text'.
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/pages/ArtistItemsPage.kt:27:36 Unresolved reference 'flexColumns'.
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/pages/ArtistItemsPage.kt:27:62 Unresolved reference 'musicResponsiveListItemFlexColumnRenderer'.
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/pages/ArtistItemsPage.kt:28:21 Unresolved reference 'Artist'.
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/pages/ArtistItemsPage.kt:29:32 Unresolved reference 'it'.
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/pages/ArtistItemsPage.kt:30:30 Unresolved reference 'it'.
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/pages/ArtistItemsPage.kt:33:34 Unresolved reference 'flexColumns'.
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/pages/ArtistItemsPage.kt:33:60 Unresolved reference 'musicResponsiveListItemFlexColumnRenderer'.
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/pages/ArtistItemsPage.kt:33:130 Cannot infer type for type parameter 'T'. Specify it explicitly.
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/pages/ArtistItemsPage.kt:33:130 Cannot infer type for type parameter 'R'. Specify it explicitly.
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/pages/ArtistItemsPage.kt:33:130 Unresolved reference. None of the following candidates is applicable because of a receiver type mismatch:
+fun <T, R> T.let(block: (T) -> R): R
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/pages/ArtistItemsPage.kt:33:134 Cannot infer type for type parameter 'T'. Specify it explicitly.
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/pages/ArtistItemsPage.kt:34:21 Unresolved reference 'Album'.
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/pages/ArtistItemsPage.kt:35:35 Unresolved reference 'text'.
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/pages/ArtistItemsPage.kt:36:33 Unresolved reference 'navigationEndpoint'.
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/pages/ArtistItemsPage.kt:39:37 Unresolved reference 'fixedColumns'.
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/pages/ArtistItemsPage.kt:40:23 Unresolved reference 'musicResponsiveListItemFlexColumnRenderer'.
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/pages/ArtistItemsPage.kt:42:23 Unresolved reference 'text'.
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/pages/ArtistItemsPage.kt:43:38 Unresolved reference 'thumbnail'.
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/pages/ArtistItemsPage.kt:44:37 Unresolved reference 'badges'.
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/pages/ArtistItemsPage.kt:45:21 Unresolved reference 'it'.
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/pages/ArtistItemsPage.kt:47:37 Unresolved reference 'overlay'.
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/pages/ArtistItemsPage.kt:51:51 Unresolved reference 'MusicTwoRowItemRenderer'.
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/pages/ArtistItemsPage.kt:51:77 Unresolved reference 'YTItem'.
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/pages/ArtistItemsPage.kt:53:26 Unresolved reference 'isAlbum'.
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/pages/ArtistItemsPage.kt:53:37 Unresolved reference 'AlbumItem'.
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/pages/ArtistItemsPage.kt:54:41 Unresolved reference 'navigationEndpoint'.
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/pages/ArtistItemsPage.kt:55:43 Unresolved reference 'thumbnailOverlay'.
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/pages/ArtistItemsPage.kt:58:38 Unresolved reference 'title'.
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/pages/ArtistItemsPage.kt:58:65 Unresolved reference 'text'.
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/pages/ArtistItemsPage.kt:60:37 Unresolved reference 'subtitle'.
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/pages/ArtistItemsPage.kt:60:67 Unresolved reference 'text'.
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/pages/ArtistItemsPage.kt:61:42 Unresolved reference 'thumbnailRenderer'.
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/pages/ArtistItemsPage.kt:62:41 Unresolved reference 'subtitleBadges'.
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/pages/ArtistItemsPage.kt:63:25 Unresolved reference 'it'.
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/pages/ArtistItemsPage.kt:67:26 Unresolved reference 'isSong'.
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/pages/ArtistItemsPage.kt:67:36 Unresolved reference 'SongItem'.
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/pages/ArtistItemsPage.kt:68:35 Unresolved reference 'navigationEndpoint'.
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/pages/ArtistItemsPage.kt:69:38 Unresolved reference 'title'.
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/pages/ArtistItemsPage.kt:69:65 Unresolved reference 'text'.
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/pages/ArtistItemsPage.kt:70:40 Unresolved reference 'subtitle'.
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/pages/ArtistItemsPage.kt:70:91 Unresolved reference 'oddElements'.
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/pages/ArtistItemsPage.kt:71:25 Unresolved reference 'Artist'.
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/pages/ArtistItemsPage.kt:72:36 Unresolved reference 'it'.
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/pages/ArtistItemsPage.kt:73:34 Unresolved reference 'it'.
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/pages/ArtistItemsPage.kt:78:42 Unresolved reference 'thumbnailRenderer'.
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/pages/ArtistItemsPage.kt:79:41 Unresolved reference 'navigationEndpoint'.
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/pages/ArtistItemsPage.kt:81:26 Unresolved reference 'isPlaylist'.
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/pages/ArtistItemsPage.kt:81:40 Unresolved reference 'PlaylistItem'.
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/pages/ArtistItemsPage.kt:82:35 Unresolved reference 'navigationEndpoint'.
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/pages/ArtistItemsPage.kt:83:38 Unresolved reference 'title'.
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/pages/ArtistItemsPage.kt:83:65 Unresolved reference 'text'.
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/pages/ArtistItemsPage.kt:84:39 Unresolved reference 'subtitle'.
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/pages/ArtistItemsPage.kt:84:69 Cannot infer type for type parameter 'T'. Specify it explicitly.
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/pages/ArtistItemsPage.kt:84:69 Cannot infer type for type parameter 'R'. Specify it explicitly.
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/pages/ArtistItemsPage.kt:84:69 Unresolved reference. None of the following candidates is applicable because of a receiver type mismatch:
+fun <T, R> T.let(block: (T) -> R): R
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/pages/ArtistItemsPage.kt:84:73 Cannot infer type for type parameter 'T'. Specify it explicitly.
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/pages/ArtistItemsPage.kt:85:25 Unresolved reference 'Artist'.
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/pages/ArtistItemsPage.kt:86:39 Unresolved reference 'text'.
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/pages/ArtistItemsPage.kt:87:37 Unresolved reference 'navigationEndpoint'.
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/pages/ArtistItemsPage.kt:90:46 Unresolved reference 'subtitle'.
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/pages/ArtistItemsPage.kt:90:76 Unresolved reference 'text'.
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/pages/ArtistItemsPage.kt:91:42 Unresolved reference 'thumbnailRenderer'.
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/pages/ArtistItemsPage.kt:92:45 Unresolved reference 'thumbnailOverlay'.
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/pages/ArtistItemsPage.kt:96:48 Unresolved reference 'menu'.
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/pages/ArtistItemsPage.kt:97:25 Unresolved reference 'it'.
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/pages/ArtistItemsPage.kt:98:24 Unresolved reference 'menuNavigationItemRenderer'.
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/pages/ArtistItemsPage.kt:99:46 Unresolved reference 'menu'.
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/pages/ArtistItemsPage.kt:100:25 Unresolved reference 'it'.
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/pages/ArtistItemsPage.kt:101:24 Unresolved reference 'menuNavigationItemRenderer'.
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/pages/MoodAndGenres.kt:4:36 Unresolved reference 'GridRenderer'.
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/pages/MoodAndGenres.kt:23:27 Unresolved reference 'header'.
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/pages/MoodAndGenres.kt:28:27 Unresolved reference 'text'.
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/pages/MoodAndGenres.kt:30:42 Unresolved reference 'items'.
+e: file:///C:/Users/frank/sonixa/innertube/src/main/kotlin/com/sonixa/innertube/pages/MoodAndGenres.kt:31:37 Unresolved reference 'GridRenderer'.
+
+> Task :app:mergeArm64DebugJniLibFolders
+> Task :app:processArm64DebugResources
+> Task :app:checkArm64DebugDuplicateClasses
+> Task :app:processArm64DebugResources FAILED
+
+FAILURE: Build completed with 2 failures.
+
+1: Task failed with an exception.
+-----------
+* What went wrong:
+Execution failed for task ':innertube:compileKotlin'.
+> A failure occurred while executing org.jetbrains.kotlin.compilerRunner.GradleCompilerRunnerWithWorkers$GradleKotlinCompilerWorkAction
+   > Compilation error. See log for more details
+
+* Try:
+> Run with --info or --debug option to get more log output.
+> Run with --scan to generate a Build Scan (Powered by Develocity).
+> Get more help at https://help.gradle.org.
+
+* Exception is:
+org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':innertube:compileKotlin'.
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.lambda$executeIfValid$1(ExecuteActionsTaskExecuter.java:135)
+	at org.gradle.internal.Try$Failure.ifSuccessfulOrElse(Try.java:288)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeIfValid(ExecuteActionsTaskExecuter.java:133)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:121)
+	at org.gradle.api.internal.tasks.execution.ProblemsTaskPathTrackingTaskExecuter.execute(ProblemsTaskPathTrackingTaskExecuter.java:41)
+	at org.gradle.api.internal.tasks.execution.FinalizePropertiesTaskExecuter.execute(FinalizePropertiesTaskExecuter.java:46)
+	at org.gradle.api.internal.tasks.execution.ResolveTaskExecutionModeExecuter.execute(ResolveTaskExecutionModeExecuter.java:51)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:57)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:74)
+	at org.gradle.api.internal.tasks.execution.CatchExceptionTaskExecuter.execute(CatchExceptionTaskExecuter.java:36)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.executeTask(EventFiringTaskExecuter.java:77)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.call(EventFiringTaskExecuter.java:55)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.call(EventFiringTaskExecuter.java:52)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:209)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:204)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:66)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:59)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:166)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:59)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.call(DefaultBuildOperationRunner.java:53)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter.execute(EventFiringTaskExecuter.java:52)
+	at org.gradle.execution.plan.LocalTaskNodeExecutor.execute(LocalTaskNodeExecutor.java:45)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$InvokeNodeExecutorsAction.execute(DefaultTaskExecutionGraph.java:347)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$InvokeNodeExecutorsAction.execute(DefaultTaskExecutionGraph.java:334)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.lambda$execute$0(DefaultTaskExecutionGraph.java:330)
+	at org.gradle.internal.operations.CurrentBuildOperationRef.with(CurrentBuildOperationRef.java:84)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.execute(DefaultTaskExecutionGraph.java:330)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.execute(DefaultTaskExecutionGraph.java:319)
+	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.execute(DefaultPlanExecutor.java:459)
+	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.run(DefaultPlanExecutor.java:376)
+	at org.gradle.execution.plan.DefaultPlanExecutor.process(DefaultPlanExecutor.java:111)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph.executeWithServices(DefaultTaskExecutionGraph.java:144)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph.execute(DefaultTaskExecutionGraph.java:129)
+	at org.gradle.execution.SelectedTaskExecutionAction.execute(SelectedTaskExecutionAction.java:35)
+	at org.gradle.execution.DryRunBuildExecutionAction.execute(DryRunBuildExecutionAction.java:51)
+	at org.gradle.execution.BuildOperationFiringBuildWorkerExecutor$ExecuteTasks.call(BuildOperationFiringBuildWorkerExecutor.java:54)
+	at org.gradle.execution.BuildOperationFiringBuildWorkerExecutor$ExecuteTasks.call(BuildOperationFiringBuildWorkerExecutor.java:43)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:209)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:204)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:66)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:59)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:166)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:59)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.call(DefaultBuildOperationRunner.java:53)
+	at org.gradle.execution.BuildOperationFiringBuildWorkerExecutor.execute(BuildOperationFiringBuildWorkerExecutor.java:40)
+	at org.gradle.internal.build.DefaultBuildLifecycleController.lambda$executeTasks$10(DefaultBuildLifecycleController.java:313)
+	at org.gradle.internal.model.StateTransitionController.doTransition(StateTransitionController.java:266)
+	at org.gradle.internal.model.StateTransitionController.lambda$tryTransition$8(StateTransitionController.java:177)
+	at org.gradle.internal.work.DefaultSynchronizer.withLock(DefaultSynchronizer.java:45)
+	at org.gradle.internal.model.StateTransitionController.tryTransition(StateTransitionController.java:177)
+	at org.gradle.internal.build.DefaultBuildLifecycleController.executeTasks(DefaultBuildLifecycleController.java:304)
+	at org.gradle.internal.build.DefaultBuildWorkGraphController$DefaultBuildWorkGraph.runWork(DefaultBuildWorkGraphController.java:220)
+	at org.gradle.internal.work.DefaultWorkerLeaseService.withLocks(DefaultWorkerLeaseService.java:263)
+	at org.gradle.internal.work.DefaultWorkerLeaseService.runAsWorkerThread(DefaultWorkerLeaseService.java:127)
+	at org.gradle.composite.internal.DefaultBuildController.doRun(DefaultBuildController.java:181)
+	at org.gradle.composite.internal.DefaultBuildController.access$000(DefaultBuildController.java:50)
+	at org.gradle.composite.internal.DefaultBuildController$BuildOpRunnable.lambda$run$0(DefaultBuildController.java:198)
+	at org.gradle.internal.operations.CurrentBuildOperationRef.with(CurrentBuildOperationRef.java:84)
+	at org.gradle.composite.internal.DefaultBuildController$BuildOpRunnable.run(DefaultBuildController.java:198)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+	at org.gradle.internal.concurrent.AbstractManagedExecutor$1.run(AbstractManagedExecutor.java:47)
+Caused by: org.gradle.workers.internal.DefaultWorkerExecutor$WorkExecutionException: A failure occurred while executing org.jetbrains.kotlin.compilerRunner.GradleCompilerRunnerWithWorkers$GradleKotlinCompilerWorkAction
+	at org.gradle.workers.internal.DefaultWorkerExecutor$WorkItemExecution.waitForCompletion(DefaultWorkerExecutor.java:289)
+	at org.gradle.internal.work.DefaultAsyncWorkTracker.lambda$waitForItemsAndGatherFailures$2(DefaultAsyncWorkTracker.java:130)
+	at org.gradle.internal.Factories$1.create(Factories.java:31)
+	at org.gradle.internal.work.DefaultWorkerLeaseService.withoutLocks(DefaultWorkerLeaseService.java:335)
+	at org.gradle.internal.work.DefaultWorkerLeaseService.withoutLocks(DefaultWorkerLeaseService.java:318)
+	at org.gradle.internal.work.DefaultWorkerLeaseService.withoutLock(DefaultWorkerLeaseService.java:323)
+	at org.gradle.internal.work.DefaultAsyncWorkTracker.waitForItemsAndGatherFailures(DefaultAsyncWorkTracker.java:126)
+	at org.gradle.internal.work.DefaultAsyncWorkTracker.waitForItemsAndGatherFailures(DefaultAsyncWorkTracker.java:92)
+	at org.gradle.internal.work.DefaultAsyncWorkTracker.waitForAll(DefaultAsyncWorkTracker.java:78)
+	at org.gradle.internal.work.DefaultAsyncWorkTracker.waitForCompletion(DefaultAsyncWorkTracker.java:66)
+	at org.gradle.api.internal.tasks.execution.TaskExecution$3.run(TaskExecution.java:260)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$1.execute(DefaultBuildOperationRunner.java:29)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$1.execute(DefaultBuildOperationRunner.java:26)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:66)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:59)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:166)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:59)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.run(DefaultBuildOperationRunner.java:47)
+	at org.gradle.api.internal.tasks.execution.TaskExecution.executeAction(TaskExecution.java:237)
+	at org.gradle.api.internal.tasks.execution.TaskExecution.executeActions(TaskExecution.java:220)
+	at org.gradle.api.internal.tasks.execution.TaskExecution.executeWithPreviousOutputFiles(TaskExecution.java:203)
+	at org.gradle.api.internal.tasks.execution.TaskExecution.execute(TaskExecution.java:170)
+	at org.gradle.internal.execution.steps.ExecuteStep.executeInternal(ExecuteStep.java:105)
+	at org.gradle.internal.execution.steps.ExecuteStep.access$000(ExecuteStep.java:44)
+	at org.gradle.internal.execution.steps.ExecuteStep$1.call(ExecuteStep.java:59)
+	at org.gradle.internal.execution.steps.ExecuteStep$1.call(ExecuteStep.java:56)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:209)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:204)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:66)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:59)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:166)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:59)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.call(DefaultBuildOperationRunner.java:53)
+	at org.gradle.internal.execution.steps.ExecuteStep.execute(ExecuteStep.java:56)
+	at org.gradle.internal.execution.steps.ExecuteStep.execute(ExecuteStep.java:44)
+	at org.gradle.internal.execution.steps.CancelExecutionStep.execute(CancelExecutionStep.java:42)
+	at org.gradle.internal.execution.steps.TimeoutStep.executeWithoutTimeout(TimeoutStep.java:75)
+	at org.gradle.internal.execution.steps.TimeoutStep.execute(TimeoutStep.java:55)
+	at org.gradle.internal.execution.steps.PreCreateOutputParentsStep.execute(PreCreateOutputParentsStep.java:50)
+	at org.gradle.internal.execution.steps.PreCreateOutputParentsStep.execute(PreCreateOutputParentsStep.java:28)
+	at org.gradle.internal.execution.steps.RemovePreviousOutputsStep.execute(RemovePreviousOutputsStep.java:68)
+	at org.gradle.internal.execution.steps.RemovePreviousOutputsStep.execute(RemovePreviousOutputsStep.java:38)
+	at org.gradle.internal.execution.steps.BroadcastChangingOutputsStep.execute(BroadcastChangingOutputsStep.java:61)
+	at org.gradle.internal.execution.steps.BroadcastChangingOutputsStep.execute(BroadcastChangingOutputsStep.java:26)
+	at org.gradle.internal.execution.steps.CaptureOutputsAfterExecutionStep.execute(CaptureOutputsAfterExecutionStep.java:69)
+	at org.gradle.internal.execution.steps.CaptureOutputsAfterExecutionStep.execute(CaptureOutputsAfterExecutionStep.java:46)
+	at org.gradle.internal.execution.steps.ResolveInputChangesStep.execute(ResolveInputChangesStep.java:39)
+	at org.gradle.internal.execution.steps.ResolveInputChangesStep.execute(ResolveInputChangesStep.java:28)
+	at org.gradle.internal.execution.steps.BuildCacheStep.executeWithoutCache(BuildCacheStep.java:189)
+	at org.gradle.internal.execution.steps.BuildCacheStep.lambda$execute$1(BuildCacheStep.java:75)
+	at org.gradle.internal.Either$Right.fold(Either.java:176)
+	at org.gradle.internal.execution.caching.CachingState.fold(CachingState.java:62)
+	at org.gradle.internal.execution.steps.BuildCacheStep.execute(BuildCacheStep.java:73)
+	at org.gradle.internal.execution.steps.BuildCacheStep.execute(BuildCacheStep.java:48)
+	at org.gradle.internal.execution.steps.StoreExecutionStateStep.execute(StoreExecutionStateStep.java:46)
+	at org.gradle.internal.execution.steps.StoreExecutionStateStep.execute(StoreExecutionStateStep.java:35)
+	at org.gradle.internal.execution.steps.SkipUpToDateStep.executeBecause(SkipUpToDateStep.java:75)
+	at org.gradle.internal.execution.steps.SkipUpToDateStep.lambda$execute$2(SkipUpToDateStep.java:53)
+	at org.gradle.internal.execution.steps.SkipUpToDateStep.execute(SkipUpToDateStep.java:53)
+	at org.gradle.internal.execution.steps.SkipUpToDateStep.execute(SkipUpToDateStep.java:35)
+	at org.gradle.internal.execution.steps.legacy.MarkSnapshottingInputsFinishedStep.execute(MarkSnapshottingInputsFinishedStep.java:37)
+	at org.gradle.internal.execution.steps.legacy.MarkSnapshottingInputsFinishedStep.execute(MarkSnapshottingInputsFinishedStep.java:27)
+	at org.gradle.internal.execution.steps.ResolveIncrementalCachingStateStep.executeDelegate(ResolveIncrementalCachingStateStep.java:49)
+	at org.gradle.internal.execution.steps.ResolveIncrementalCachingStateStep.executeDelegate(ResolveIncrementalCachingStateStep.java:27)
+	at org.gradle.internal.execution.steps.AbstractResolveCachingStateStep.execute(AbstractResolveCachingStateStep.java:71)
+	at org.gradle.internal.execution.steps.AbstractResolveCachingStateStep.execute(AbstractResolveCachingStateStep.java:39)
+	at org.gradle.internal.execution.steps.ResolveChangesStep.execute(ResolveChangesStep.java:64)
+	at org.gradle.internal.execution.steps.ResolveChangesStep.execute(ResolveChangesStep.java:35)
+	at org.gradle.internal.execution.steps.ValidateStep.execute(ValidateStep.java:62)
+	at org.gradle.internal.execution.steps.ValidateStep.execute(ValidateStep.java:40)
+	at org.gradle.internal.execution.steps.AbstractCaptureStateBeforeExecutionStep.execute(AbstractCaptureStateBeforeExecutionStep.java:76)
+	at org.gradle.internal.execution.steps.AbstractCaptureStateBeforeExecutionStep.execute(AbstractCaptureStateBeforeExecutionStep.java:45)
+	at org.gradle.internal.execution.steps.AbstractSkipEmptyWorkStep.executeWithNonEmptySources(AbstractSkipEmptyWorkStep.java:136)
+	at org.gradle.internal.execution.steps.AbstractSkipEmptyWorkStep.execute(AbstractSkipEmptyWorkStep.java:66)
+	at org.gradle.internal.execution.steps.AbstractSkipEmptyWorkStep.execute(AbstractSkipEmptyWorkStep.java:38)
+	at org.gradle.internal.execution.steps.legacy.MarkSnapshottingInputsStartedStep.execute(MarkSnapshottingInputsStartedStep.java:38)
+	at org.gradle.internal.execution.steps.LoadPreviousExecutionStateStep.execute(LoadPreviousExecutionStateStep.java:36)
+	at org.gradle.internal.execution.steps.LoadPreviousExecutionStateStep.execute(LoadPreviousExecutionStateStep.java:23)
+	at org.gradle.internal.execution.steps.HandleStaleOutputsStep.execute(HandleStaleOutputsStep.java:75)
+	at org.gradle.internal.execution.steps.HandleStaleOutputsStep.execute(HandleStaleOutputsStep.java:41)
+	at org.gradle.internal.execution.steps.AssignMutableWorkspaceStep.lambda$execute$0(AssignMutableWorkspaceStep.java:35)
+	at org.gradle.api.internal.tasks.execution.TaskExecution$4.withWorkspace(TaskExecution.java:297)
+	at org.gradle.internal.execution.steps.AssignMutableWorkspaceStep.execute(AssignMutableWorkspaceStep.java:31)
+	at org.gradle.internal.execution.steps.AssignMutableWorkspaceStep.execute(AssignMutableWorkspaceStep.java:22)
+	at org.gradle.internal.execution.steps.ChoosePipelineStep.execute(ChoosePipelineStep.java:40)
+	at org.gradle.internal.execution.steps.ChoosePipelineStep.execute(ChoosePipelineStep.java:23)
+	at org.gradle.internal.execution.steps.ExecuteWorkBuildOperationFiringStep.lambda$execute$2(ExecuteWorkBuildOperationFiringStep.java:67)
+	at org.gradle.internal.execution.steps.ExecuteWorkBuildOperationFiringStep.execute(ExecuteWorkBuildOperationFiringStep.java:67)
+	at org.gradle.internal.execution.steps.ExecuteWorkBuildOperationFiringStep.execute(ExecuteWorkBuildOperationFiringStep.java:39)
+	at org.gradle.internal.execution.steps.IdentityCacheStep.execute(IdentityCacheStep.java:46)
+	at org.gradle.internal.execution.steps.IdentityCacheStep.execute(IdentityCacheStep.java:34)
+	at org.gradle.internal.execution.steps.IdentifyStep.execute(IdentifyStep.java:47)
+	at org.gradle.internal.execution.steps.IdentifyStep.execute(IdentifyStep.java:34)
+	at org.gradle.internal.execution.impl.DefaultExecutionEngine$1.execute(DefaultExecutionEngine.java:64)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeIfValid(ExecuteActionsTaskExecuter.java:132)
+	... 58 more
+Caused by: org.jetbrains.kotlin.gradle.tasks.CompilationErrorException: Compilation error. See log for more details
+	at org.jetbrains.kotlin.gradle.tasks.TasksUtilsKt.throwExceptionIfCompilationFailed(tasksUtils.kt:21)
+	at org.jetbrains.kotlin.compilerRunner.GradleKotlinCompilerWork.run(GradleKotlinCompilerWork.kt:119)
+	at org.jetbrains.kotlin.compilerRunner.GradleCompilerRunnerWithWorkers$GradleKotlinCompilerWorkAction.execute(GradleCompilerRunnerWithWorkers.kt:74)
+	at org.gradle.workers.internal.DefaultWorkerServer.execute(DefaultWorkerServer.java:68)
+	at org.gradle.workers.internal.NoIsolationWorkerFactory$1$1.create(NoIsolationWorkerFactory.java:66)
+	at org.gradle.workers.internal.NoIsolationWorkerFactory$1$1.create(NoIsolationWorkerFactory.java:62)
+	at org.gradle.internal.classloader.ClassLoaderUtils.executeInClassloader(ClassLoaderUtils.java:100)
+	at org.gradle.workers.internal.NoIsolationWorkerFactory$1.lambda$execute$0(NoIsolationWorkerFactory.java:62)
+	at org.gradle.workers.internal.AbstractWorker$1.call(AbstractWorker.java:44)
+	at org.gradle.workers.internal.AbstractWorker$1.call(AbstractWorker.java:41)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:209)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:204)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:66)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:59)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:166)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:59)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.call(DefaultBuildOperationRunner.java:53)
+	at org.gradle.workers.internal.AbstractWorker.executeWrappedInBuildOperation(AbstractWorker.java:41)
+	at org.gradle.workers.internal.NoIsolationWorkerFactory$1.execute(NoIsolationWorkerFactory.java:59)
+	at org.gradle.workers.internal.DefaultWorkerExecutor.lambda$submitWork$0(DefaultWorkerExecutor.java:176)
+	at org.gradle.internal.work.DefaultConditionalExecutionQueue$ExecutionRunner.runExecution(DefaultConditionalExecutionQueue.java:194)
+	at org.gradle.internal.work.DefaultConditionalExecutionQueue$ExecutionRunner.access$700(DefaultConditionalExecutionQueue.java:127)
+	at org.gradle.internal.work.DefaultConditionalExecutionQueue$ExecutionRunner$1.run(DefaultConditionalExecutionQueue.java:169)
+	at org.gradle.internal.Factories$1.create(Factories.java:31)
+	at org.gradle.internal.work.DefaultWorkerLeaseService.withLocks(DefaultWorkerLeaseService.java:263)
+	at org.gradle.internal.work.DefaultWorkerLeaseService.runAsWorkerThread(DefaultWorkerLeaseService.java:127)
+	at org.gradle.internal.work.DefaultWorkerLeaseService.runAsWorkerThread(DefaultWorkerLeaseService.java:132)
+	at org.gradle.internal.work.DefaultConditionalExecutionQueue$ExecutionRunner.runBatch(DefaultConditionalExecutionQueue.java:164)
+	at org.gradle.internal.work.DefaultConditionalExecutionQueue$ExecutionRunner.run(DefaultConditionalExecutionQueue.java:133)
+	... 2 more
+
+==============================================================================
+
+2: Task failed with an exception.
+-----------
+* What went wrong:
+Execution failed for task ':app:processArm64DebugResources'.
+> A failure occurred while executing com.android.build.gradle.internal.res.LinkApplicationAndroidResourcesTask$TaskAction
+   > Android resource linking failed
+     ERROR: C:\Users\frank\sonixa\app\src\main\AndroidManifest.xml:19:5-165:19: AAPT: error: resource style/Theme.sonixa (aka com.sonixa.music.debug:style/Theme.sonixa) not found.
+         
+     ERROR: C:\Users\frank\sonixa\app\src\main\AndroidManifest.xml:36:9-120:20: AAPT: error: resource style/Theme.sonixa (aka com.sonixa.music.debug:style/Theme.sonixa) not found.
+         
+
+* Try:
+> Run with --info or --debug option to get more log output.
+> Run with --scan to generate a Build Scan (Powered by Develocity).
+> Get more help at https://help.gradle.org.
+
+* Exception is:
+org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':app:processArm64DebugResources'.
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.lambda$executeIfValid$1(ExecuteActionsTaskExecuter.java:135)
+	at org.gradle.internal.Try$Failure.ifSuccessfulOrElse(Try.java:288)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeIfValid(ExecuteActionsTaskExecuter.java:133)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:121)
+	at org.gradle.api.internal.tasks.execution.ProblemsTaskPathTrackingTaskExecuter.execute(ProblemsTaskPathTrackingTaskExecuter.java:41)
+	at org.gradle.api.internal.tasks.execution.FinalizePropertiesTaskExecuter.execute(FinalizePropertiesTaskExecuter.java:46)
+	at org.gradle.api.internal.tasks.execution.ResolveTaskExecutionModeExecuter.execute(ResolveTaskExecutionModeExecuter.java:51)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:57)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:74)
+	at org.gradle.api.internal.tasks.execution.CatchExceptionTaskExecuter.execute(CatchExceptionTaskExecuter.java:36)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.executeTask(EventFiringTaskExecuter.java:77)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.call(EventFiringTaskExecuter.java:55)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.call(EventFiringTaskExecuter.java:52)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:209)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:204)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:66)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:59)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:166)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:59)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.call(DefaultBuildOperationRunner.java:53)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter.execute(EventFiringTaskExecuter.java:52)
+	at org.gradle.execution.plan.LocalTaskNodeExecutor.execute(LocalTaskNodeExecutor.java:45)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$InvokeNodeExecutorsAction.execute(DefaultTaskExecutionGraph.java:347)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$InvokeNodeExecutorsAction.execute(DefaultTaskExecutionGraph.java:334)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.lambda$execute$0(DefaultTaskExecutionGraph.java:330)
+	at org.gradle.internal.operations.CurrentBuildOperationRef.with(CurrentBuildOperationRef.java:84)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.execute(DefaultTaskExecutionGraph.java:330)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.execute(DefaultTaskExecutionGraph.java:319)
+	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.execute(DefaultPlanExecutor.java:459)
+	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.run(DefaultPlanExecutor.java:376)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+	at org.gradle.internal.concurrent.AbstractManagedExecutor$1.run(AbstractManagedExecutor.java:47)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: org.gradle.workers.internal.DefaultWorkerExecutor$WorkExecutionException: A failure occurred while executing com.android.build.gradle.internal.res.LinkApplicationAndroidResourcesTask$TaskAction
+	at org.gradle.workers.internal.DefaultWorkerExecutor$WorkItemExecution.waitForCompletion(DefaultWorkerExecutor.java:289)
+	at org.gradle.internal.work.DefaultAsyncWorkTracker.lambda$waitForItemsAndGatherFailures$2(DefaultAsyncWorkTracker.java:130)
+	at org.gradle.internal.Factories$1.create(Factories.java:31)
+	at org.gradle.internal.work.DefaultWorkerLeaseService.withoutLocks(DefaultWorkerLeaseService.java:335)
+	at org.gradle.internal.work.DefaultWorkerLeaseService.withoutLocks(DefaultWorkerLeaseService.java:318)
+	at org.gradle.internal.work.DefaultWorkerLeaseService.withoutLock(DefaultWorkerLeaseService.java:323)
+	at org.gradle.internal.work.DefaultAsyncWorkTracker.waitForItemsAndGatherFailures(DefaultAsyncWorkTracker.java:126)
+	at org.gradle.internal.work.DefaultAsyncWorkTracker.waitForItemsAndGatherFailures(DefaultAsyncWorkTracker.java:92)
+	at org.gradle.internal.work.DefaultAsyncWorkTracker.waitForAll(DefaultAsyncWorkTracker.java:78)
+	at org.gradle.internal.work.DefaultAsyncWorkTracker.waitForCompletion(DefaultAsyncWorkTracker.java:66)
+	at org.gradle.api.internal.tasks.execution.TaskExecution$3.run(TaskExecution.java:260)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$1.execute(DefaultBuildOperationRunner.java:29)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$1.execute(DefaultBuildOperationRunner.java:26)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:66)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:59)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:166)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:59)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.run(DefaultBuildOperationRunner.java:47)
+	at org.gradle.api.internal.tasks.execution.TaskExecution.executeAction(TaskExecution.java:237)
+	at org.gradle.api.internal.tasks.execution.TaskExecution.executeActions(TaskExecution.java:220)
+	at org.gradle.api.internal.tasks.execution.TaskExecution.executeWithPreviousOutputFiles(TaskExecution.java:203)
+	at org.gradle.api.internal.tasks.execution.TaskExecution.execute(TaskExecution.java:170)
+	at org.gradle.internal.execution.steps.ExecuteStep.executeInternal(ExecuteStep.java:105)
+	at org.gradle.internal.execution.steps.ExecuteStep.access$000(ExecuteStep.java:44)
+	at org.gradle.internal.execution.steps.ExecuteStep$1.call(ExecuteStep.java:59)
+	at org.gradle.internal.execution.steps.ExecuteStep$1.call(ExecuteStep.java:56)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:209)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:204)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:66)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:59)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:166)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:59)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.call(DefaultBuildOperationRunner.java:53)
+	at org.gradle.internal.execution.steps.ExecuteStep.execute(ExecuteStep.java:56)
+	at org.gradle.internal.execution.steps.ExecuteStep.execute(ExecuteStep.java:44)
+	at org.gradle.internal.execution.steps.CancelExecutionStep.execute(CancelExecutionStep.java:42)
+	at org.gradle.internal.execution.steps.TimeoutStep.executeWithoutTimeout(TimeoutStep.java:75)
+	at org.gradle.internal.execution.steps.TimeoutStep.execute(TimeoutStep.java:55)
+	at org.gradle.internal.execution.steps.PreCreateOutputParentsStep.execute(PreCreateOutputParentsStep.java:50)
+	at org.gradle.internal.execution.steps.PreCreateOutputParentsStep.execute(PreCreateOutputParentsStep.java:28)
+	at org.gradle.internal.execution.steps.RemovePreviousOutputsStep.execute(RemovePreviousOutputsStep.java:68)
+	at org.gradle.internal.execution.steps.RemovePreviousOutputsStep.execute(RemovePreviousOutputsStep.java:38)
+	at org.gradle.internal.execution.steps.BroadcastChangingOutputsStep.execute(BroadcastChangingOutputsStep.java:61)
+	at org.gradle.internal.execution.steps.BroadcastChangingOutputsStep.execute(BroadcastChangingOutputsStep.java:26)
+	at org.gradle.internal.execution.steps.CaptureOutputsAfterExecutionStep.execute(CaptureOutputsAfterExecutionStep.java:69)
+	at org.gradle.internal.execution.steps.CaptureOutputsAfterExecutionStep.execute(CaptureOutputsAfterExecutionStep.java:46)
+	at org.gradle.internal.execution.steps.ResolveInputChangesStep.execute(ResolveInputChangesStep.java:39)
+	at org.gradle.internal.execution.steps.ResolveInputChangesStep.execute(ResolveInputChangesStep.java:28)
+	at org.gradle.internal.execution.steps.BuildCacheStep.executeWithoutCache(BuildCacheStep.java:189)
+	at org.gradle.internal.execution.steps.BuildCacheStep.lambda$execute$1(BuildCacheStep.java:75)
+	at org.gradle.internal.Either$Right.fold(Either.java:176)
+	at org.gradle.internal.execution.caching.CachingState.fold(CachingState.java:62)
+	at org.gradle.internal.execution.steps.BuildCacheStep.execute(BuildCacheStep.java:73)
+	at org.gradle.internal.execution.steps.BuildCacheStep.execute(BuildCacheStep.java:48)
+	at org.gradle.internal.execution.steps.StoreExecutionStateStep.execute(StoreExecutionStateStep.java:46)
+	at org.gradle.internal.execution.steps.StoreExecutionStateStep.execute(StoreExecutionStateStep.java:35)
+	at org.gradle.internal.execution.steps.SkipUpToDateStep.executeBecause(SkipUpToDateStep.java:75)
+	at org.gradle.internal.execution.steps.SkipUpToDateStep.lambda$execute$2(SkipUpToDateStep.java:53)
+	at java.base/java.util.Optional.orElseGet(Optional.java:364)
+	at org.gradle.internal.execution.steps.SkipUpToDateStep.execute(SkipUpToDateStep.java:53)
+	at org.gradle.internal.execution.steps.SkipUpToDateStep.execute(SkipUpToDateStep.java:35)
+	at org.gradle.internal.execution.steps.legacy.MarkSnapshottingInputsFinishedStep.execute(MarkSnapshottingInputsFinishedStep.java:37)
+	at org.gradle.internal.execution.steps.legacy.MarkSnapshottingInputsFinishedStep.execute(MarkSnapshottingInputsFinishedStep.java:27)
+	at org.gradle.internal.execution.steps.ResolveIncrementalCachingStateStep.executeDelegate(ResolveIncrementalCachingStateStep.java:49)
+	at org.gradle.internal.execution.steps.ResolveIncrementalCachingStateStep.executeDelegate(ResolveIncrementalCachingStateStep.java:27)
+	at org.gradle.internal.execution.steps.AbstractResolveCachingStateStep.execute(AbstractResolveCachingStateStep.java:71)
+	at org.gradle.internal.execution.steps.AbstractResolveCachingStateStep.execute(AbstractResolveCachingStateStep.java:39)
+	at org.gradle.internal.execution.steps.ResolveChangesStep.execute(ResolveChangesStep.java:64)
+	at org.gradle.internal.execution.steps.ResolveChangesStep.execute(ResolveChangesStep.java:35)
+	at org.gradle.internal.execution.steps.ValidateStep.execute(ValidateStep.java:62)
+	at org.gradle.internal.execution.steps.ValidateStep.execute(ValidateStep.java:40)
+	at org.gradle.internal.execution.steps.AbstractCaptureStateBeforeExecutionStep.execute(AbstractCaptureStateBeforeExecutionStep.java:76)
+	at org.gradle.internal.execution.steps.AbstractCaptureStateBeforeExecutionStep.execute(AbstractCaptureStateBeforeExecutionStep.java:45)
+	at org.gradle.internal.execution.steps.AbstractSkipEmptyWorkStep.executeWithNonEmptySources(AbstractSkipEmptyWorkStep.java:136)
+	at org.gradle.internal.execution.steps.AbstractSkipEmptyWorkStep.execute(AbstractSkipEmptyWorkStep.java:61)
+	at org.gradle.internal.execution.steps.AbstractSkipEmptyWorkStep.execute(AbstractSkipEmptyWorkStep.java:38)
+	at org.gradle.internal.execution.steps.legacy.MarkSnapshottingInputsStartedStep.execute(MarkSnapshottingInputsStartedStep.java:38)
+	at org.gradle.internal.execution.steps.LoadPreviousExecutionStateStep.execute(LoadPreviousExecutionStateStep.java:36)
+	at org.gradle.internal.execution.steps.LoadPreviousExecutionStateStep.execute(LoadPreviousExecutionStateStep.java:23)
+	at org.gradle.internal.execution.steps.HandleStaleOutputsStep.execute(HandleStaleOutputsStep.java:75)
+	at org.gradle.internal.execution.steps.HandleStaleOutputsStep.execute(HandleStaleOutputsStep.java:41)
+	at org.gradle.internal.execution.steps.AssignMutableWorkspaceStep.lambda$execute$0(AssignMutableWorkspaceStep.java:35)
+	at org.gradle.api.internal.tasks.execution.TaskExecution$4.withWorkspace(TaskExecution.java:297)
+	at org.gradle.internal.execution.steps.AssignMutableWorkspaceStep.execute(AssignMutableWorkspaceStep.java:31)
+	at org.gradle.internal.execution.steps.AssignMutableWorkspaceStep.execute(AssignMutableWorkspaceStep.java:22)
+	at org.gradle.internal.execution.steps.ChoosePipelineStep.execute(ChoosePipelineStep.java:40)
+	at org.gradle.internal.execution.steps.ChoosePipelineStep.execute(ChoosePipelineStep.java:23)
+	at org.gradle.internal.execution.steps.ExecuteWorkBuildOperationFiringStep.lambda$execute$2(ExecuteWorkBuildOperationFiringStep.java:67)
+	at java.base/java.util.Optional.orElseGet(Optional.java:364)
+	at org.gradle.internal.execution.steps.ExecuteWorkBuildOperationFiringStep.execute(ExecuteWorkBuildOperationFiringStep.java:67)
+	at org.gradle.internal.execution.steps.ExecuteWorkBuildOperationFiringStep.execute(ExecuteWorkBuildOperationFiringStep.java:39)
+	at org.gradle.internal.execution.steps.IdentityCacheStep.execute(IdentityCacheStep.java:46)
+	at org.gradle.internal.execution.steps.IdentityCacheStep.execute(IdentityCacheStep.java:34)
+	at org.gradle.internal.execution.steps.IdentifyStep.execute(IdentifyStep.java:47)
+	at org.gradle.internal.execution.steps.IdentifyStep.execute(IdentifyStep.java:34)
+	at org.gradle.internal.execution.impl.DefaultExecutionEngine$1.execute(DefaultExecutionEngine.java:64)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeIfValid(ExecuteActionsTaskExecuter.java:132)
+	... 32 more
+Caused by: com.android.builder.internal.aapt.v2.Aapt2Exception: Android resource linking failed
+ERROR: C:\Users\frank\sonixa\app\src\main\AndroidManifest.xml:19:5-165:19: AAPT: error: resource style/Theme.sonixa (aka com.sonixa.music.debug:style/Theme.sonixa) not found.
+    
+ERROR: C:\Users\frank\sonixa\app\src\main\AndroidManifest.xml:36:9-120:20: AAPT: error: resource style/Theme.sonixa (aka com.sonixa.music.debug:style/Theme.sonixa) not found.
+    
+	at com.android.builder.internal.aapt.v2.Aapt2Exception$Companion.create(Aapt2Exception.kt:45)
+	at com.android.builder.internal.aapt.v2.Aapt2Exception$Companion.create$default(Aapt2Exception.kt:31)
+	at com.android.build.gradle.internal.res.Aapt2ErrorUtils.rewriteException(Aapt2ErrorUtils.kt:262)
+	at com.android.build.gradle.internal.res.Aapt2ErrorUtils.rewriteLinkException(Aapt2ErrorUtils.kt:133)
+	at com.android.build.gradle.internal.res.Aapt2ProcessResourcesRunnableKt.processResources(Aapt2ProcessResourcesRunnable.kt:76)
+	at com.android.build.gradle.internal.res.LinkApplicationAndroidResourcesTask$Companion.invokeAaptForSplit(LinkApplicationAndroidResourcesTask.kt:1060)
+	at com.android.build.gradle.internal.res.LinkApplicationAndroidResourcesTask$Companion.access$invokeAaptForSplit(LinkApplicationAndroidResourcesTask.kt:886)
+	at com.android.build.gradle.internal.res.LinkApplicationAndroidResourcesTask$TaskAction.run(LinkApplicationAndroidResourcesTask.kt:463)
+	at com.android.build.gradle.internal.profile.ProfileAwareWorkAction.execute(ProfileAwareWorkAction.kt:74)
+	at org.gradle.workers.internal.DefaultWorkerServer.execute(DefaultWorkerServer.java:68)
+	at org.gradle.workers.internal.NoIsolationWorkerFactory$1$1.create(NoIsolationWorkerFactory.java:66)
+	at org.gradle.workers.internal.NoIsolationWorkerFactory$1$1.create(NoIsolationWorkerFactory.java:62)
+	at org.gradle.internal.classloader.ClassLoaderUtils.executeInClassloader(ClassLoaderUtils.java:100)
+	at org.gradle.workers.internal.NoIsolationWorkerFactory$1.lambda$execute$0(NoIsolationWorkerFactory.java:62)
+	at org.gradle.workers.internal.AbstractWorker$1.call(AbstractWorker.java:44)
+	at org.gradle.workers.internal.AbstractWorker$1.call(AbstractWorker.java:41)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:209)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:204)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:66)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:59)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:166)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:59)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.call(DefaultBuildOperationRunner.java:53)
+	at org.gradle.workers.internal.AbstractWorker.executeWrappedInBuildOperation(AbstractWorker.java:41)
+	at org.gradle.workers.internal.NoIsolationWorkerFactory$1.execute(NoIsolationWorkerFactory.java:59)
+	at org.gradle.workers.internal.DefaultWorkerExecutor.lambda$submitWork$0(DefaultWorkerExecutor.java:176)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.gradle.internal.work.DefaultConditionalExecutionQueue$ExecutionRunner.runExecution(DefaultConditionalExecutionQueue.java:194)
+	at org.gradle.internal.work.DefaultConditionalExecutionQueue$ExecutionRunner.access$700(DefaultConditionalExecutionQueue.java:127)
+	at org.gradle.internal.work.DefaultConditionalExecutionQueue$ExecutionRunner$1.run(DefaultConditionalExecutionQueue.java:169)
+	at org.gradle.internal.Factories$1.create(Factories.java:31)
+	at org.gradle.internal.work.DefaultWorkerLeaseService.withLocks(DefaultWorkerLeaseService.java:263)
+	at org.gradle.internal.work.DefaultWorkerLeaseService.runAsWorkerThread(DefaultWorkerLeaseService.java:127)
+	at org.gradle.internal.work.DefaultWorkerLeaseService.runAsWorkerThread(DefaultWorkerLeaseService.java:132)
+	at org.gradle.internal.work.DefaultConditionalExecutionQueue$ExecutionRunner.runBatch(DefaultConditionalExecutionQueue.java:164)
+	at org.gradle.internal.work.DefaultConditionalExecutionQueue$ExecutionRunner.run(DefaultConditionalExecutionQueue.java:133)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	... 5 more
+
+==============================================================================
+
+BUILD FAILED in 1m 20s
+30 actionable tasks: 5 executed, 25 up-to-date
+Configuration cache entry reused.

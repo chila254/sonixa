@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "962332036214",
+    "project_id": "sonixa-b6ade",
+    "storage_bucket": "sonixa-b6ade.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:962332036214:android:4b1fca7b5b896b92122357",
+        "android_client_info": {
+          "package_name": "com.sonixa.music"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "962332036214-psla5767pi0p7ged1oq46rhlkrcbapot.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sonixa.music",
+            "certificate_hash": "850dc245ee4266c9f259aa3ac63d13e507864b53"
+          }
+        },
+        {
+          "client_id": "962332036214-s0p31ej0t2fepmivhksangc7koa3mogf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sonixa.music",
+            "certificate_hash": "429f424a2949458aeb40cc63ff5a7cef4f6b2cbc"
+          }
+        },
+        {
+          "client_id": "962332036214-0k7cvhpr62c2mtuv9vena2jgcdqteclu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBuIT1zpJDkQG2YdcUI7wFtS5YXWIiczsk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "962332036214-0k7cvhpr62c2mtuv9vena2jgcdqteclu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
