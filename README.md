@@ -1,5 +1,5 @@
 <div align="center">
-<img src="https://github.com/mostafaalagamy/Metrolist/blob/main/fastlane/metadata/android/en-US/images/icon.png" width="160" height="160" style="display: block; margin: 0 auto"/>
+<img src="https://github.com/chila254/sonixa/blob/main/fastlane/metadata/android/en-US/images/icon.png" width="160" height="160" style="display: block; margin: 0 auto"/>
 <h1>Sonixa</h1>
 <p>YouTube Music client for Android</p>
 

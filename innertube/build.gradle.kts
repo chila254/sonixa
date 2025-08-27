@@ -16,4 +16,8 @@ dependencies {
     implementation(libs.brotli)
     implementation(libs.newpipe.extractor)
     testImplementation(libs.junit)
+
+    // Adding missing dependencies for unresolved references
+    implementation("com.example:library-for-gridrenderer:1.0.0") // Replace with actual library
+    implementation("com.example:library-for-artistitems:1.0.0") // Replace with actual library
 }

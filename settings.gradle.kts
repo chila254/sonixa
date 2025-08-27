@@ -10,15 +10,16 @@ dependencyResolutionManagement {
     }
 }
 
-toolchainManagement {
-    jvm {
-        javaRepositories {
-            repository("foojay") {
-                resolverClass.set(org.gradle.toolchains.foojay.FoojayToolchainResolver::class.java)
-            }
-        }
-    }
-}
+// F-Droid doesn't support foojay-resolver plugin
+// toolchainManagement {
+//     jvm {
+//         javaRepositories {
+//             repository("foojay") {
+//                 resolverClass.set(org.gradle.toolchains.foojay.FoojayToolchainResolver::class.java)
+//             }
+//         }
+//     }
+// }
 
 rootProject.name = "Sonixa"
 include(":app")
